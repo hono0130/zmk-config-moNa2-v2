@@ -109,10 +109,10 @@
 
         layer_3 {
             bindings = <
-&kp GRAVE       &trans          &trans        &trans                       &trans                                     &trans                        &kp MINUS         &kp EQUAL          &trans         &trans
-&trans          &trans          &trans        &trans                       &trans                       &bt BT_SEL 0  &trans                        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &trans
-&kp LEFT_SHIFT  &trans          &trans        &trans                       &trans     &bt BT_CLR_ALL    &bt BT_SEL 1  &kp SEMICOLON                 &kp SQT           &trans             &trans         &kp SLASH
-&kp LCTRL       &kp LEFT_SHIFT  &kp LEFT_ALT  &mt LEFT_COMMAND LANGUAGE_2  &kp SPACE  &kp SPACE         &trans        &mt RIGHT_COMMAND LANGUAGE_1                                                      &trans
+&kp GRAVE       &trans          &trans        &trans                       &trans                                &trans                        &kp MINUS         &kp EQUAL          &trans         &trans
+&trans          &trans          &trans        &trans                       &trans                  &bt BT_SEL 0  &trans                        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &trans
+&kp LEFT_SHIFT  &trans          &trans        &trans                       &trans     &trans       &bt BT_SEL 1  &kp SEMICOLON                 &kp SQT           &trans             &trans         &kp SLASH
+&kp LCTRL       &kp LEFT_SHIFT  &kp LEFT_ALT  &mt LEFT_COMMAND LANGUAGE_2  &kp SPACE  &kp SPACE    &trans        &mt RIGHT_COMMAND LANGUAGE_1                                                      &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRI_DEC C_BRI_UP>;
