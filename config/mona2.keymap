@@ -98,10 +98,10 @@
 
         layer_2 {
             bindings = <
-&kp ESCAPE      &kp AT_SIGN  &kp POUND     &kp DOLLAR        &kp PERCENT                    &kp F10            &kp F11   &mkp RCLK  &kp F12  &kp BACKSPACE
-&kp TAB         &trans       &trans        &trans            &trans                 &trans  &trans             &mkp MB1  &trans     &trans   &trans
-&kp LEFT_SHIFT  &trans       &trans        &trans            &trans       &trans    &trans  &trans             &trans    &trans     &trans   &trans
-&kp LCTRL       &kp LSHIFT   &kp LEFT_ALT  &kp LEFT_COMMAND  &trans       &trans    &trans  &kp RIGHT_COMMAND                                &trans
+&kp ESCAPE      &kp AT_SIGN               &kp POUND     &kp DOLLAR        &kp PERCENT                    &kp F10            &kp F11   &mkp RCLK  &kp F12  &kp BACKSPACE
+&kp TAB         &kp LS(LG(LC(NUMBER_4)))  &trans        &trans            &trans                 &trans  &trans             &mkp MB1  &trans     &trans   &trans
+&kp LEFT_SHIFT  &trans                    &trans        &trans            &trans       &trans    &trans  &trans             &trans    &trans     &trans   &trans
+&kp LCTRL       &kp LSHIFT                &kp LEFT_ALT  &kp LEFT_COMMAND  &trans       &trans    &trans  &kp RIGHT_COMMAND                                &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -109,13 +109,13 @@
 
         layer_3 {
             bindings = <
-&trans  &kp LC(LS(TAB))     &kp PRINTSCREEN         &kp LC(TAB)              &trans                                     &trans  &kp HOME        &kp UP_ARROW    &kp END          &trans
-&trans  &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)     &kp LC(LG(LEFT_ARROW))   &kp LC(LG(RIGHT_ARROW))            &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
-&trans  &kp LEFT_SHIFT      &kp LG(LS(LEFT_ARROW))  &kp LG(LS(RIGHT_ARROW))  &trans                   &trans    &trans  &trans  &kp DELETE      &kp PAGE_UP     &kp PAGE_DOWN    &trans
-&trans  &trans              &trans                  &trans                   &trans                   &trans    &trans  &trans                                                   &trans
+&kp GRAVE       &trans          &trans        &trans                       &trans                                     &trans                        &kp MINUS         &kp EQUAL          &trans         &trans
+&trans          &trans          &trans        &trans                       &trans                       &bt BT_SEL 0  &trans                        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &trans
+&kp LEFT_SHIFT  &trans          &trans        &trans                       &trans     &bt BT_CLR_ALL    &bt BT_SEL 1  &kp SEMICOLON                 &kp SQT           &trans             &trans         &kp SLASH
+&kp LCTRL       &kp LEFT_SHIFT  &kp LEFT_ALT  &mt LEFT_COMMAND LANGUAGE_2  &kp SPACE  &kp SPACE         &trans        &mt RIGHT_COMMAND LANGUAGE_1                                                      &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
+            sensor-bindings = <&inc_dec_kp C_BRI_DEC C_BRI_UP>;
         };
 
         layer_4 {
