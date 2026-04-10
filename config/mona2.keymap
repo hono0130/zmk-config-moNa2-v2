@@ -104,7 +104,7 @@
 &kp LCTRL       &kp LSHIFT                &kp LEFT_ALT  &kp LEFT_COMMAND                   &trans  &trans    &trans  &kp RIGHT_COMMAND                                &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp RG(RS(EQUAL)) RG(MINUS)>;
+            sensor-bindings = <&inc_dec_kp RG(MINUS) RG(RS(EQUAL))>;
         };
 
         layer_3 {
