@@ -104,7 +104,7 @@
 &kp LCTRL       &kp LSHIFT                &kp LEFT_ALT  &kp LEFT_COMMAND                   &trans  &trans    &trans  &kp RIGHT_COMMAND                                &trans
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT>;
         };
 
         layer_3 {
