@@ -78,7 +78,7 @@
             bindings = <
 &kp Q      &kp W           &kp E         &kp R                   &kp T                                    &kp Y                    &kp U  &kp I      &kp O    &kp P
 &kp A      &kp S           &kp D         &lt 3 F                 &lt 4 G                     &trans       &kp H                    &kp J  &kp K      &kp L    &kp ENTER
-&kp Z      &kp X           &kp C         &kp V                   &kp B        &trans         &trans       &kp N                    &kp M  &kp COMMA  &kp DOT  &kp RIGHT_SHIFT
+&kp Z      &kp X           &kp C         &kp V                   &kp B        &kp SPACE      &trans       &kp N                    &kp M  &kp COMMA  &kp DOT  &kp RIGHT_SHIFT
 &kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT  &mt LEFT_COMMAND LANG2  &lt 2 SPACE  &lt 1 SPACE    &lt 3 SPACE  &mt RIGHT_COMMAND LANG1                             &kp ENTER
             >;
 
@@ -104,7 +104,7 @@
 &kp LCTRL       &kp LSHIFT                &kp LEFT_ALT  &kp LEFT_COMMAND                   &trans  &trans    &trans  &kp RIGHT_COMMAND                                &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT>;
+            sensor-bindings = <&inc_dec_kp RG(RS(EQUAL)) RG(MINUS)>;
         };
 
         layer_3 {
